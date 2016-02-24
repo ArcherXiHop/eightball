@@ -3,5 +3,8 @@
 'use strict'
 
 var c = require("skilstak-colors");
+var print = function (potato) { 
+process.stdout.write(potato);
+}
+print(c.clear + c.multi("Welcome to Hetalia's Magic Eightball!" + "\n"));
 
-console.log(c.clear + c.multi("Welsome to the Magic Eightball!");
